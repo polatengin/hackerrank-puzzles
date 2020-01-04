@@ -1,3 +1,4 @@
 {
   "name": "HackerRank Development Environment",
+  "dockerFile": "Dockerfile",
 }
