@@ -22,3 +22,6 @@ RUN apt-get update \
   #
   # Install Node
   && apt install -y nodejs npm \
+  #
+  # Install Azure CLI
+  && curl -sL https://aka.ms/InstallAzureCLIDeb | bash \
