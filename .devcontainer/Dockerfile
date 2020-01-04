@@ -25,3 +25,6 @@ RUN apt-get update \
   #
   # Install Azure CLI
   && curl -sL https://aka.ms/InstallAzureCLIDeb | bash \
+  #
+  # [Optional] Add sudo support for the non-root user
+  && apt-get install -y sudo \
