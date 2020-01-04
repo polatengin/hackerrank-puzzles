@@ -8,4 +8,15 @@
     "terminal.integrated.shell.linux": "/bin/bash",
     "workbench.iconTheme": "vscode-icons"
   },
+  "extensions": [
+    "ms-azuretools.vscode-docker",
+    "ms-vscode.csharp",
+    "ms-vsliveshare.vsliveshare",
+    "vscode-icons-team.vscode-icons",
+    "editorconfig.editorconfig",
+    "donjayamanne.githistory",
+    "eamodio.gitlens",
+    "davidanson.vscode-markdownlint",
+    "mutantdino.resourcemonitor"
+  ]
 }
