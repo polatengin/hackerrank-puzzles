@@ -14,3 +14,21 @@ For example, `arr = [1, 3, 5, 7, 9]`. Our minimum sum is `1 + 3 + 5 + 7 = 16` an
 
 You can find my solution in the [minimaxsum](./minimaxsum/) folder.
 
+## StairCase
+
+[HackerRank StairCase Challenge](https://www.hackerrank.com/challenges/staircase/problem)
+
+Consider a staircase of size `n = 4`:
+
+```javascript
+   #
+  ##
+ ###
+####
+```
+
+Observe that its base and height are both equal to `n`, and the image is drawn using # symbols and spaces. The last line is not preceded by any spaces.
+
+Write a program that prints a staircase of size `n`.
+
+You can find my solution in the [staircase](./staircase/) folder.
