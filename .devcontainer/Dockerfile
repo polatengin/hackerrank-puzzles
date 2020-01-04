@@ -5,3 +5,6 @@ ENV DEBIAN_FRONTEND=noninteractive
 
 # Configure apt and install packages
 RUN apt-get update \
+  #
+  # Verify wget, jq, unzip, git and process tools installed
+  && apt-get -y install git iproute2 procps wget unzip jq \
